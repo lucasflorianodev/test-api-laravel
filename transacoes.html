@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transações</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <div class="flex h-screen">
+        <!-- Sidebar -->
+        <div class="w-64 bg-black text-white p-5">
+            <h1 class="text-lg font-bold">Transação</h1>
+        </div>
+
+        <!-- Main Content -->
+        <div class="flex-1">
+            <!-- Header -->
+            <div class="bg-gray-200 p-4 flex justify-between items-center">
+                <h2 class="text-2xl font-semibold">Extrato</h2>
+                <button class="bg-black text-white px-4 py-2 rounded-lg">Criar Transação</button>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="p-4">
+                <input type="text" placeholder="Buscar..." class="w-full p-2 border rounded-lg shadow-sm">
+            </div>
+
+            <!-- Transactions List -->
+            <div class="p-4">
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <p>R$ 600 - Em processamento - 23/02/2025 12:23:09</p>
+                    <p>R$ 600 - Aprovado - 01/01/2020 12:23:00</p>
+                    <p>R$ 1.200 - Negado - 01/01/2020 12:00:00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
